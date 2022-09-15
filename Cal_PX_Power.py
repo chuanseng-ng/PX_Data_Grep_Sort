@@ -46,7 +46,7 @@ def sel_data_add(count, curr_sel_index_list, sel_list, trim_df):
 
     return temp_add_df
 
-## Generate full df with seelcted power rail data for input header
+## Generate full df with selected power rail data for input header
 def df_gen_full(sel_list, power_rail_list, trim_df, df):
     sel_num       = len(sel_list)
     sel_name_list = []
